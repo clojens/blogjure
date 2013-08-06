@@ -1,0 +1,98 @@
+/* CSS for Blogjure */
+
+.title {
+    font: large;
+}
+
+.whenposted {
+    float: left;
+    padding-right: 10px;
+    color: teal;
+    font-weight: bold;
+}
+
+.commentcount {
+    color: maroon;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+a {}
+a:link {
+    color: green;
+    background-color: silver;
+    text-decoration: none;
+}
+a:visited {
+    color: olive;
+    text-decoration: none;
+}
+a:hover {
+    color: olive;
+    background-color: silver;
+}
+a:active {
+    color: red;
+}
+a.title {}
+a.title:link {
+    font-weight: bold;
+    color: navy;
+    text-decoration: none;
+}
+a.title:visited {
+    font-weight: bold;
+    color: navy;
+    text-decoration: none;
+}
+a.title:hover {
+    color: navy;
+    background-color: silver;
+}
+a.title:active {
+    color: red;
+}
+
+
+.loginbar {
+    background-color: olive;
+    color: white;
+    min-height: 32px;
+}
+
+.loginbar * {
+    padding-right: 4px;
+}
+
+a.loginbar {}
+a.loginbar:link {
+    font-weight: bold;
+    color: maroon;
+    background-color: olive;
+    text-decoration: none;
+}
+a.loginbar:visited {
+    font-weight: bold;
+    color: maroon;
+    text-decoration: none;
+}
+a.loginbar:hover {
+    color: olive;
+    background-color: white;
+}
+a.loginbar:active {
+    color: red;
+}
+
+.show {
+    display: block;
+    height: 400px;
+    width: 935px;
+    color: white;
+    background: maroon;
+    /*position:absolute;*/
+    padding: 10 5 5 10;
+}
+.hide {
+    display:none;
+}
